@@ -5,6 +5,8 @@
  */
 package pos.system;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author janitha
@@ -15,7 +17,10 @@ public class PoSSystem {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here                
-    }
+            AddItem add = new AddItem();
+            add.setVisible(true);
+            
+        
+                }
     
 }
